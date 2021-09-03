@@ -23,7 +23,7 @@ class Ui_MainWindow(object):
         self.tasks_table.setAlternatingRowColors(True)
         self.tasks_table.setObjectName("tasks_table")
         self.tasks_table.horizontalHeader().setCascadingSectionResizes(True)
-        self.tasks_table.horizontalHeader().setDefaultSectionSize(10)
+        self.tasks_table.horizontalHeader().setDefaultSectionSize(25)
         self.tasks_table.horizontalHeader().setMinimumSectionSize(10)
         self.tasks_table.horizontalHeader().setStretchLastSection(True)
         self.tasks_table.verticalHeader().setCascadingSectionResizes(True)
